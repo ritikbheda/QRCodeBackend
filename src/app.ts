@@ -11,7 +11,7 @@ app.use(cookieParser());
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://qrcode-frontend.onrender.com/',
+  'https://qrcode-frontend.onrender.com',
 ];
 
 const corsOptions: CorsOptions = {
