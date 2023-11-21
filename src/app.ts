@@ -9,7 +9,10 @@ app.set('trust proxy', true);
 app.use(json());
 app.use(cookieParser());
 
-const allowedOrigins = ['http://localhost:3000'];
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://qrcode-frontend.onrender.com/',
+];
 
 const corsOptions: CorsOptions = {
   origin: function (origin, callback) {
